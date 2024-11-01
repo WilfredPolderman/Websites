@@ -1,0 +1,88 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+body{
+    background: linear-gradient(135deg, #f3f4f6, #e9ecef); 
+}
+
+/* Navbar */
+
+.container-fluid{
+    padding: 0 !important;
+}
+
+.sidebar{
+    background-color: #1e3a8a;
+    color: white;
+    padding-top: 2rem;
+    border-radius: 0 10px 10px 0;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    min-height: 100vh;
+    display: flex;
+}
+
+.sidebar h2{
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links .nav-link{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nav-links .nav-link:hover{
+    background-color: #3b82f6;
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+.nav-links .nav-link.active{
+    background-color: #2563eb;
+    font-weight: bold;
+}
+
+/*footer*/
+
+.social-icon{
+    width: 40px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.carousel-inner img{
+    max-height: 400px;
+    width: auto;
+    object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+filter: invert(1);
+}
+
+h1{
+    text-align: center;
+}

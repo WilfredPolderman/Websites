@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/hobby.css">
+    <link rel="icon" href="/img/favicon-laptop.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Portfolio Wilfred Polderman</title>
+</head>
+<body>
+    <!-- navbar -->
+        <aside class="col-md-2 position-fixed d-flex flex-column align-items-center p-3 sidebar">
+            <h2>Wilfred Polderman</h2>
+            <nav class="w-100">
+                <ul class="nav flex-column nav-links w-100">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="index.html">Start</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="CV.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="ervaring.html">Ervaring</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="hobby.html">Hobby's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+
+    <!-- main content -->
+     <!--carousel-->
+
+     <div class="content offset-md-2 p-4 inleiding">
+        <h1>Hobby's</h1>
+        <p>Naast het vele studeren, heb ik ook veel hobby's waar ik mij mee bezig houd. Hieronder kunt u ze vinden in een carousel, met een kleine beschrijving.</p>
+        <hr>
+
+        <div id="hobbyCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/img/hobby's/gitaar hobby.jpg" alt="foto van een gitaar" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Muziek</h3>
+                        <p>Ik speel al voor een kleine 10+ jaar gitaar, en hier en daar drums. In het verleden heb ik in diverse bands gespeeld, en schrijf ook zelf muziek.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hobby's/concert.jpg" alt="foto van een concert" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Concerten</h3>
+                        <p>Ik ben vaak terug te vinden in diverse concertzalen. Ik ga het vaakst naar metal en rap concerten.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hobby's/sporten.jpg" alt="foto van een dumbbell" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Sporten</h3>
+                        <p>Om fysiek en mentaal gezond te blijven, ben ik minimaal 2x per week te vinden in de sportschool.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hobby's/voetbal.jpg" alt="foto van een voetbal" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Voetbal</h3>
+                        <p>Voetbal is iets wat ik graag volg. In het verleden heb ik zelf ook voor een korte periode voetbal gespeeld.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hobby's/Lezen.jpg" alt="foto van een boek" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Lezen</h3>
+                        <p>Ik lees voornamelijk geschiedenis boeken maar ik heb ook interesse in fictie boeken.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/img/hobby's/Gamen.jpg" alt="foto van een game controller" class="d-block w-100">
+                    <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 p-3 rounded">
+                        <h3>Gamen</h3>
+                        <p>Ik speel voornamelijk games, op de pc die ik zelf heb gemaakt. Hier een daar speel ik ook graag couch co-op games op mijn Playstation 5.</p>
+                    </div>
+                </div>
+            </div>
+            <!--carousel besturen-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#hobbyCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hobbyCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <!--footer-->
+        <footer class="footer fixed-bottom text-center bg-dark text-light">
+            <div class="container d-flex flex-column align-items-center">
+                <div class="row">
+                    <div class="mb-2 d-flex justify-content-center align-items-center gap-4">
+                        <p class="mb-1">© 2024 Wilfred Polderman</p>
+                        <a href="https://www.youtube.com/@wilfredpolderman2473" target="_blank">
+                            <img src="/img/contact_socials/youtube.png" alt="Youtube logo" class="social-icon">
+                        </a>
+                        <a href="https://www.instagram.com/willyplaysguitar/" target="_blank">
+                            <img src="/img/contact_socials/instagram.png" alt="Instagram logo" class="social-icon">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
